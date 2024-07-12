@@ -25,7 +25,7 @@ const config: HardhatUserConfig = {
   networks: {
     Amoy: {
       url: `https://rpc-amoy.polygon.technology`,
-      accounts: ["cdb82b32a3ae3912e1318e085203220f9b07acada1ebe44a5b0e3d02b8d1d0f8"]
+      accounts: ["cdb82b32a3ae3912e1318e085203220f9b68acada1ebe44a5b0e3d02b8d1d0f8"]
     }
   },
   circom: {
