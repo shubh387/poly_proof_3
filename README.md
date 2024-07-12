@@ -137,6 +137,23 @@ The OR() template is a CIRCOM component that computes the logical OR operation o
 
 The code component main = GivenCircuit(); creates a CIRCOM component named main, which corresponds to the entire circuit defined in the GivenCircuit template. The main component checks whether the signal c is the multiplication of signals a and b based on the logic defined in the GivenCircuit template.
 
+### Install
+`npm i`
+
+### Compile
+`npx hardhat compile` 
+This will generate the **out** file with circuit intermediaries and geneate the **MultiplierVerifier.sol** contract
+
+### Prove and Deploy
+`npx hardhat run scripts/deploy.ts`
+This script does 4 things  
+1. Deploys the MultiplierVerifier.sol contract
+2. Generates a proof from circuit intermediaries with `generateProof()`
+3. Generates calldata with `generateCallData()`
+4. Calls `verifyProof()` on the verifier contract with calldata
+
+With two commands you can compile a ZKP, generate a proof, deploy a verifier, and verify the proof 🎉
+
 ## Result:
 
 
