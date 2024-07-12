@@ -156,6 +156,10 @@ With two commands you can compile a ZKP, generate a proof, deploy a verifier, an
 
 ## Result:
 
+![Screenshot 2024-07-12 150447](https://github.com/user-attachments/assets/b24edbf5-eaa3-450b-8453-20a419f7dbb5)
+
+![Screenshot 2024-07-12 150426](https://github.com/user-attachments/assets/db56a65c-7320-4f27-bed4-9d4144f82589)
+
 
 ## Authors
 
